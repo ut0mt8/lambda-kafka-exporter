@@ -1,6 +1,6 @@
 Small POC of a pattern sending event to a lambda and exposing it for scraping by prometheus.
 The lambda is written with the chalice framework, and then send the event to a kafka topic.
-The exporter consume event from the kafka topics and then present in the prometheus format.
+The exporter consume event from the kafka topics and then present it in the prometheus format.
 Everything is written in python for simplicity purpose.
 
 ```
