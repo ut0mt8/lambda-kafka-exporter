@@ -1,0 +1,15 @@
+{
+  "stages": {
+    "dev": {
+      "api_gateway_stage": "api",
+	  "subnet_ids": ["subnet-xxx"],
+	   "security_group_ids": ["sg-xxx"]
+    }
+  },
+  "environment_variables": {
+	    "KAFKA_SERVERS": "XXX:9092",
+	    "KAFKA_TOPIC": "XXX"
+  },
+  "version": "1.0",
+  "app_name": "kafka-gw"
+}
